@@ -1,0 +1,9 @@
+# Increase PHP execution time
+php_value max_execution_time 300
+php_value max_input_time 300
+
+# Increase memory limit
+php_value memory_limit 512M
+
+# Increase timeouts
+php_value default_socket_timeout 300

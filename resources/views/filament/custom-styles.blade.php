@@ -1,0 +1,36 @@
+<style>
+    /* Custom styles for Filament tables */
+    .fi-ta-content {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .fi-ta-content table {
+        min-width: 100%;
+        width: max-content;
+    }
+
+    .fi-ta-content th,
+    .fi-ta-content td {
+        white-space: nowrap;
+        padding: 0.75rem 1rem;
+    }
+
+    /* Make the site URL column wrap if needed */
+    .fi-ta-content td:has(a[href^="http"]) {
+        white-space: normal;
+        word-break: break-all;
+        max-width: 300px;
+    }
+
+    /* Ensure the table container doesn't cause horizontal scroll on the whole page */
+    .fi-main-ctn {
+        overflow-x: hidden;
+    }
+
+    /* Add some spacing between action buttons */
+    .fi-ta-actions {
+        display: flex;
+        gap: 0.5rem;
+    }
+</style>
