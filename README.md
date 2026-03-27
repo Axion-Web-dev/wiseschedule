@@ -2,41 +2,41 @@
 
 A sophisticated Laravel-based platform that automates content creation, scheduling, and publishing across multiple WordPress sites and social media platforms using advanced AI technology.
 
-## 🚀 Features
+##  Features
 
-### 🤖 AI Content Generation
+###  AI Content Generation
 - **Smart Article Creation**: Generate high-quality blog posts, tutorials, and articles using OpenAI GPT models
 - **Multiple Content Types**: Support for blog posts, tutorials, listicles, how-to guides, opinion pieces, and news articles
 - **Tone Adjustment**: Choose from professional, casual, friendly, technical, conversational, or formal tones
 - **SEO Optimization**: Automatic meta title and description generation for better search rankings
 - **Content Refinement**: Advanced AI-powered content improvement and refinement
 
-### 📅 Advanced Scheduling System
+###  Advanced Scheduling System
 - **Timezone-Aware Scheduling**: Full timezone support with automatic detection and conversion
 - **Facebook-Style DateTime Picker**: Intuitive scheduling interface with 5-minute intervals
 - **UTC Storage**: All times stored in UTC for global consistency
 - **WordPress Integration**: Proper `date` and `date_gmt` handling for WordPress sites
 - **Queue-Based Publishing**: Reliable job queue system for scheduled content
 
-### 🔗 Multi-Platform Integration
+###  Multi-Platform Integration
 - **WordPress Publishing**: Direct publishing to unlimited WordPress sites
 - **X (Twitter) Integration**: Automated thread posting with media support
 - **Bulk Operations**: Process multiple articles simultaneously
 - **Auto-Sync**: Automatic fetching of new posts from connected WordPress sites
 
-### 🎨 Professional Admin Panel
+###  Professional Admin Panel
 - **Filament Admin**: Modern, responsive admin interface
 - **Real-Time Dashboard**: Live status updates and analytics
 - **Resource Management**: Comprehensive resource pages for articles, sites, and posts
 - **Security Features**: Secure password handling, encrypted credentials, and user authentication
 
-### 🌐 Enterprise Features
+###  Enterprise Features
 - **Multi-Tenant Architecture**: Support for multiple users and WordPress sites
 - **Role-Based Access**: User permissions and access control
 - **Audit Logging**: Comprehensive activity tracking
 - **Error Handling**: Robust error management and retry mechanisms
 
-## 📋 System Requirements
+##  System Requirements
 
 - **PHP**: ^8.2
 - **Laravel**: ^12.0
@@ -44,7 +44,7 @@ A sophisticated Laravel-based platform that automates content creation, scheduli
 - **Node.js**: ^18.0
 - **Composer**: ^2.0
 
-## 🛠️ Installation
+##  Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -134,7 +134,7 @@ Visit `http://localhost:8000` to access your application.
 2. Add `HF_TOKEN` to your `.env` file
 3. Enable image generation in article settings
 
-## 📖 Usage Guide
+##  Usage Guide
 
 ### Creating AI Articles
 1. **Navigate**: Admin → AI Articles → Create Article
@@ -172,7 +172,7 @@ Visit `http://localhost:8000` to access your application.
 3. **Authorize**: Complete OAuth flow with Twitter
 4. **Auto-Posting**: Articles automatically post as Twitter threads when published
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Core Components
 
@@ -202,7 +202,7 @@ The system implements enterprise-level timezone management:
 4. **WordPress Compatibility**: Proper `date`/`date_gmt` field handling
 5. **Job Scheduling**: Queue jobs use UTC for global consistency
 
-## 🔄 API Endpoints
+##  API Endpoints
 
 ### WordPress Integration
 - `GET /wp-json/wp/v2/posts` - Fetch posts
@@ -218,7 +218,7 @@ The system implements enterprise-level timezone management:
 - `POST /timezone-detect` - User timezone detection
 - `POST /start-trial` - Trial registration redirect
 
-## 🧪 Testing
+##  Testing
 
 ### Run Tests
 ```bash
@@ -231,7 +231,7 @@ php artisan test
 - Integration tests for WordPress publishing
 - Job queue testing
 
-## 📊 Monitoring & Logging
+##  Monitoring & Logging
 
 ### Logging Channels
 - **Default**: Application logs
@@ -245,7 +245,7 @@ php artisan test
 - User-friendly error messages
 - Admin notifications for critical errors
 
-## 🚀 Deployment
+##  Deployment
 
 ### Production Setup
 1. **Environment**: Set `APP_ENV=production` and `APP_DEBUG=false`
@@ -269,7 +269,7 @@ Add to your crontab:
 * * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
 ```
 
-## 🔒 Security
+##  Security
 
 ### Implemented Features
 - **Encrypted Credentials**: All third-party credentials encrypted
@@ -284,7 +284,7 @@ Add to your crontab:
 - Database encryption for sensitive data
 - HTTPS enforcement in production
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -292,11 +292,11 @@ Add to your crontab:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+##  Support
 
 ### Documentation
 - [Laravel Documentation](https://laravel.com/docs)
@@ -314,17 +314,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Check existing issues for solutions
 - Review logs for detailed error information
 
-## 🎯 Roadmap
-
-### Upcoming Features
-- [ ] LinkedIn integration
-- [ ] Facebook page publishing
-- [ ] Advanced analytics dashboard
-- [ ] Content calendar view
-- [ ] Team collaboration features
-- [ ] API rate limiting dashboard
-- [ ] Content template library
-- [ ] A/B testing for content
+ A/B testing for content
 
 ### Performance Improvements
 - [ ] Redis caching implementation
