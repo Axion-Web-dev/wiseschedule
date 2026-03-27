@@ -1,4 +1,4 @@
-# schedulewise- AI-Powered Social Media Automation Platform
+# Schedulewise- AI-Powered Social Media Automation Platform
 
 A sophisticated Laravel-based platform that automates content creation, scheduling, and publishing across multiple WordPress sites and social media platforms using advanced AI technology.
 
